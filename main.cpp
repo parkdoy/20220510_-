@@ -58,6 +58,7 @@ int main()
 	cout<<Sum(Array,Count);
 
 	delete[] Array;
+	Array = nullptr;
 
 	return 0;
 }
